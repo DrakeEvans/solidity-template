@@ -13,10 +13,10 @@
     "removeComments": true,
     "resolveJsonModule": true,
     "sourceMap": true,
-    "strict": true,
+    "strict": false,
     "target": "es6"
   },
   "exclude": ["node_modules"],
   "files": ["./hardhat.config.ts"],
-  "include": ["src/**/*", "tasks/**/*", "test/**/*"]
+  "include": ["src/**/*", "tasks/**/*", "src/types/test/**/*"]
 }

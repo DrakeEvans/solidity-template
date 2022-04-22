@@ -1,0 +1,6 @@
+{
+  "conventionalCommits.scopes": [],
+  "git.detectSubmodules": false,
+  "editor.tokenColorCustomizations": { "comments": "#1f9b5d" },
+  "workbench.colorTheme": "Solidity Visual Developer Dark"
+}

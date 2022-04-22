@@ -24,6 +24,11 @@ if (!infuraApiKey) {
   throw new Error("Please set your INFURA_API_KEY in a .env file");
 }
 
+// const alchemyURL: string | undefined = process.env.ALCHEMY_URL;
+// if (!alchemyURL) {
+//   throw new Error("Please set your ALCHEMY_URL in a .env file");
+// }
+
 const chainIds = {
   "arbitrum-mainnet": 42161,
   avalanche: 43114,
@@ -98,8 +103,8 @@ const config: HardhatUserConfig = {
   paths: {
     artifacts: "./artifacts",
     cache: "./cache",
-    sources: "./contracts",
-    tests: "./test",
+    sources: "./src/contracts",
+    tests: "./src/test",
   },
   solidity: {
     version: "0.8.13",
